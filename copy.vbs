@@ -3,7 +3,7 @@ Dim oFS,oFl
    Dim x
    For x = 1 To 10
 	Set oFSO = CreateObject("Scripting.FileSystemObject") 
-	Set oFl = oFSO.GetFile("lol.txt") 
+		Set oFl = oFSO.GetFile("test.txt") 
 	oFl.Copy "lol.txt"&x,False
    Next
 End Sub
